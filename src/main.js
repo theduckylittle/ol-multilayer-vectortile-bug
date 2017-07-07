@@ -66,8 +66,8 @@ const map = new Map({
     new TileLayer({
       source: new OsmSource()
     }),
-    red_layer,
     green_layer,
+    red_layer,
   ],
   view: new View({
     center: [0,0],
